@@ -1,5 +1,5 @@
 import React from 'react'
-import WebClass from './webClass'
+import Names from './NameList/Names'
 
 function Header(){
     return(
@@ -24,7 +24,7 @@ function Header(){
       <div>
         <Header/>
         <Content/>
-        <WebClass AvailableDate={"25-08-2020"}/>
+        <Names/>
         <Footer/>
       </div>
     )
