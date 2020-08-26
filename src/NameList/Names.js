@@ -22,9 +22,7 @@ export default class Names extends React.Component{
         <AddNames addName={this.addName} />
         <NameList
               names={this.state.names}
-            />}
-
-        
+            />        
       </div>
     );
   }
